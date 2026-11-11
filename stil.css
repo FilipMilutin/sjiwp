@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+body{
+    background-color: #E0AAFF; /*Možemo kliktat na onaj prozor gore tekst i onda mijenja format*/ /*Lakše će biti s hsl nego s rgb*/
+    color: #7B2CBF;
+    font-family: "Open Sans", sans-serif, Arial, serif;
+    text-align: center;
+}
+
+h1{
+    color: #240046;
+    text-align: center;
+    font-size: 35px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+p, dl, ul, ol{
+    line-height: 1.6;
+    text-align: left;
+}
+
+h2{
+    color: #240046;
+    text-align: center;
+}
+
+a{
+    color: #9D4EDD;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+caption{
+    caption-side: bottom;
+}

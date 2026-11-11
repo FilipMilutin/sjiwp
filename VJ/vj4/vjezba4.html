@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablice</title>
+    <link rel="stylesheet" href="../../stil.css">
+</head>
+<body>
+    <a href = "../../index.html">Vrati se na početnu</a> <br> <br>
+    Ako želiš saznati sve o tablicama otvori <a href = "\\DEJAVU\StudentDocuments\filip.milutin1\Documents\SJIWP\HTML\vj4\vazno_o_tablicama.pdf" target = "_blank">pdf</a>
+
+    <h1>Jednostavna tablica</h1>
+    <table border="2" width = "100%" cellpadding = "10px" > <!--Ovo su CSS tagovi--> <!--Cellpading dodaje s svih strana-->
+        <tr> <!--Heading je automatski boldan i centriran ali je to isto kao i td-->
+            <th colspan = 5>Dani u tjednu</th> <!--Table heading--> <!--Colspan ide kroz stupce; Čim se koristi  colspan i rowspan onda nastaje višak čelija; Treba dok se radi razmišljati o tome i da ne nastane višak-->
+        </tr>
+        <tr>
+            <td colspan = 2>Ponedjeljak</td> <!--Jače je ono što se dodjeljuje izravno na element-->
+            <td rowspan = 2>Srijeda</td> <!--Broj koji se unosi označava broj čelija ovisno o dimenziji; Ako nemamo table row a broj čelija je veći od dimenzije tablice onda se ne vidi to-->
+            <td>Četvrtak</td>
+            <td>Petak</td>
+        </tr>
+        <tr> <!--Redak; trebamo ga stavljati najbolje ovako gore dolje i onda unutra data-->
+            <td>Ponedjeljak</td> <!--Data je kao čelija u stupcu u retku-->
+            <td>Utorak</td>
+            <td>Četvrtak</td>
+            <td>Petak</td>
+        </tr>
+    </table>
+
+<br><br>
+    <table border = "2">
+        <tr>
+            <th colspan = 5>naslov tablice</th>
+        </tr>
+        
+        <tr>
+            <td>&nbsp;</td> <!--Znači da je čelija prazna-->
+            <td>1. stupac</td>
+            <td>2. stupac</td>
+            <td>3. stupac</td>
+            <td>4. stupac</td>
+        </tr>
+            <td>1. red</td>
+            <td bgcolor="orange" rowspan="3">&nbsp;</td>
+            <td bgcolor="green" rowspan="2" >&nbsp;</td>
+            <td>&nbsp;</td>
+            <td bgcolor="red">&nbsp;</td>
+        <tr>
+            <td>2. red</td>
+            <td bgcolor=yellow colspan="2">&nbsp;</td>
+        </tr>
+            <td>3. red</td>
+            <td bgcolor="purple" colspan = "3">&nbsp</td>
+        
+
+            <caption>ovo je opis tablice</caption>
+
+    </table>
+</body>
+</html>
