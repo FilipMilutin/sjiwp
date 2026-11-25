@@ -35,3 +35,18 @@ a{
 caption{
     caption-side: bottom;
 }
+
+
+.html{
+    background-color: red;
+    color: black;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.css{
+    background-color: lime;
+    color: black;
+    border-radius: 15px;
+    padding: 5px;
+}
